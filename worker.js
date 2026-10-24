@@ -216,7 +216,7 @@ function getContenidoConfidencial() {
 <p>• <strong>En Costa Rica:</strong> Identifiqué el conducto exacto para intervenir las pasarelas locales de cobro en 72 horas.</p>
 <p>• <strong>En el Extranjero:</strong> Conecté la responsabilidad con casas matrices anglosajonas (Common Law) para un reclamo indemnizatorio masivo.</p>
 
-<p class="highlight-fire">"QUÉDATE YO TUERTO SI TÚ TE QUEDAS CIEGO."</p>
+<p class="highlight-fire">"QUÉDAMEYO TUERTO SI TÚ TE QUEDAS CIEGO."</p>
 
 <p class="sec">3. Inteligencia de Fuentes Abiertas (OSINT) y Trazabilidad Estatal:</p>
 <div class="osint-box">
