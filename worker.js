@@ -1,4 +1,3 @@
-Toque el icono de Copiar (los dos cuadritos en la esquina superior derecha de este bloque negro) y péguelo directamente en ese espacio gris debajo de Editar archivo para su archivo worker.js:
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -17,7 +16,7 @@ export default {
       console.error("Error consultando KV:", e);
     }
 
-    if (false) {
+    if (yaLeido) {
       return new Response(getPantallaBloqueadaHTML("ACCESO EXPIRADO", "Este informe reservado contaba con protocolo de <strong>Lectura Única</strong> y ya fue consultado. El enlace ha quedado <strong>permanentemente</strong> inhabilitado."), {
         status: 403,
         headers: { "Content-Type": "text/html; charset=utf-8" }
@@ -217,6 +216,8 @@ function getContenidoConfidencial() {
 <p>• <strong>En Costa Rica:</strong> Identifiqué el conducto exacto para intervenir las pasarelas locales de cobro en 72 horas.</p>
 <p>• <strong>En el Extranjero:</strong> Conecté la responsabilidad con casas matrices anglosajonas (Common Law) para un reclamo indemnizatorio masivo.</p>
 
+<p class="highlight-fire">"QUÉDATE YO TUERTO SI TÚ TE QUEDAS CIEGO."</p>
+
 <p class="sec">3. Inteligencia de Fuentes Abiertas (OSINT) y Trazabilidad Estatal:</p>
 <div class="osint-box">
 <p style="margin: 0; font-size: 13px; color: #58a6ff; font-weight: bold;">DEMOSTRACIÓN DE SUPERIORIDAD TÁCTICA Y OSINT:</p>
@@ -243,4 +244,3 @@ Documento firmado digitalmente — Sitio seguro de auditoría
 </div>
 `;
 }
-
